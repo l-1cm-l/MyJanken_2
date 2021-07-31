@@ -39,6 +39,11 @@ struct ContentView: View {
                 answerNumber = newAnswerNumber
             }) {
                 Text("じゃんけんをする")
+                    .frame(minWidth: .infinity)
+                    .frame(height: 100)
+                    .font(.title)
+                    .background(Color.pink)
+                    .foregroundColor(Color.white)
             }
         }
     }
